@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+.project-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.table-container{
+    outline: 2px solid;
+    width: fit-content;
+}
+tr,td,th{
+    outline: 1px solid;
+    padding: 10px;
+}
+tr:nth-child(odd){
+    background-color: #fafafa;
+}
+.form-container{
+    padding-top: 40px;
+}
+#send-button{
+    width: 120px;
+    height: 50px;
+    color: white;
+    background-color: teal;
+    border: none;
+}
+#permission-message{
+    outline: 1px solid;
+    border-radius: 5px;
+    height: 50px;
+    padding: 20px;
+    border: none;
+}
+#reset-button{
+    color: white;
+    height: 50px;
+    background-color: darkred;
+}
